@@ -1,0 +1,81 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --sitered: rgb(92, 5, 5);
+}
+
+.topnav {
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+    margin-top: 1.25%;
+    font-style: italic;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.topnav:hover {
+    color: var(--sitered);
+}
+
+.indexh1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: helvetica;
+    font-size: 5rem;
+    margin-top: 14%;
+    background-color: none;
+    border: none;
+}
+
+.indexh4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: helvetica;
+    font-size; 1rem;
+    margin-top: 8%;
+    background-color: none;
+    border-color: black;
+}
+
+.portfolioh1 {
+    display: flex;
+    justify-content: right;
+    align-items: flex-start;
+    font: helvetica;
+    font-size: 3.5rem;
+    margin-top: 1%;
+    margin-right: 1%;
+    background-color: none;
+    border: none;
+}
+
+.abouth1 {
+    display: flex;
+    justify-content: right;
+    align-items: flex-start;
+    font: helvetica;
+    font-size: 3.5rem;
+    margin-right: 1%;
+    margin-top: 1%;
+    background-color: none;
+    border: none;
+}
+
+.contacth1 {
+    display: flex;
+    justify-content: right;
+    align-items: flex-start;
+    font: helvetica;
+    font-size: 3.5rem;
+    margin-right: 1%;
+    margin-top: 1%;
+    background-color: none;
+    border: none;
+}
