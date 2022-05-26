@@ -11,7 +11,7 @@
     justify-content: space-evenly;
     color: black;
     margin-top: 1.25%;
-    font-style: italic;
+    font-style: normal;
 }
 
 a:link {
@@ -38,7 +38,7 @@ a:link {
     justify-content: center;
     align-items: center;
     font: helvetica;
-    font-size; 1rem;
+    font-size: 1rem;
     margin-top: 8%;
     background-color: none;
     border-color: black;
@@ -46,36 +46,81 @@ a:link {
 
 .portfolioh1 {
     display: flex;
-    justify-content: right;
+    justify-content: left;
     align-items: flex-start;
     font: helvetica;
     font-size: 3.5rem;
     margin-top: 1%;
-    margin-right: 1%;
+    margin-left: 1%;
     background-color: none;
     border: none;
+    font-style: italic;
 }
 
 .abouth1 {
     display: flex;
-    justify-content: right;
+    justify-content: left;
     align-items: flex-start;
     font: helvetica;
     font-size: 3.5rem;
-    margin-right: 1%;
+    margin-left: 1%;
     margin-top: 1%;
     background-color: none;
     border: none;
+    font-style: italic;
 }
 
 .contacth1 {
     display: flex;
-    justify-content: right;
+    justify-content: left;
     align-items: flex-start;
     font: helvetica;
     font-size: 3.5rem;
-    margin-right: 1%;
+    margin-left: 1%;
     margin-top: 1%;
     background-color: none;
     border: none;
+    font-style: italic;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.text-input {
+    width: 100%;
+    max-width: 100%;
+}
+
+.text-input, select {
+    padding: 1%;
+    outline: none;
+    border: 1.2px solid var(--sitered);
+}
+
+.text-input:hover{
+    box-shadow: 0 0 5px #999;
+}
+
+.text-input:focus {
+    border-right-width: 5px;
+}
+
+.text-input:placeholder-shown {
+    border-style: dashed;
+}
+
+#box1title {
+    display: flex;
+    justify-content: left;
+    margin-left: 5%;
+}
+
+#box1img {
+    display: flex;
+    justify-content: right;
+    margin-right: 5%;
 }
