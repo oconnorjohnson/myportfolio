@@ -6,6 +6,17 @@
     --sitered: rgb(92, 5, 5);
 }
 
+.homemain {
+    background-image: url(./assets/flowing.gif);
+    background-size: cover;
+    
+    
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
 .topnav {
     display: flex;
     justify-content: space-evenly;
@@ -41,7 +52,7 @@ a:link {
     font-size: 1rem;
     margin-top: 8%;
     background-color: none;
-    border-color: black;
+    color: black;
 }
 
 .portfolioh1 {
