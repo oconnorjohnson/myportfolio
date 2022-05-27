@@ -33,7 +33,50 @@ a:link {
     color: var(--sitered);
 }
 
-.indexh1 {
+.proj1img:hover {
+    color: var(--sitered);
+}
+
+.proj2img:hover {
+    color: var(--sitered);
+}
+
+.proj3img:hover {
+    color: var(--sitered);
+}
+
+.about {
+    padding-bottom: 25%;
+    padding-top: 25%;
+}
+
+.index {
+    padding-bottom: 25%;
+}
+
+.portfolio {
+    display: flex;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: aliceblue;
+}
+
+.contact {
+    display: flex;
+    padding-bottom: 25%;
+    padding-top: 25%;
+    background-color:aliceblue;
+}
+
+.headshot {
+    display: flex;
+}
+
+#projtitle {
+    padding-left: 1%;
+}
+
+#indexh1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,7 +87,12 @@ a:link {
     border: none;
 }
 
-.indexh4 {
+.extras {
+    display: flex;
+    flex-wrap: column;
+}
+
+#indexh4 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,7 +103,7 @@ a:link {
     color: black;
 }
 
-.portfolioh1 {
+#portfolioh1 {
     display: flex;
     justify-content: left;
     align-items: flex-start;
@@ -66,22 +114,10 @@ a:link {
     background-color: none;
     border: none;
     font-style: italic;
+   
 }
 
-.abouth1 {
-    display: flex;
-    justify-content: left;
-    align-items: flex-start;
-    font: helvetica;
-    font-size: 3.5rem;
-    margin-left: 1%;
-    margin-top: 1%;
-    background-color: none;
-    border: none;
-    font-style: italic;
-}
-
-.contacth1 {
+#abouth1 {
     display: flex;
     justify-content: left;
     align-items: flex-start;
@@ -94,42 +130,37 @@ a:link {
     font-style: italic;
 }
 
-.contact {
+#contacth1 {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2%;
+    font: helvetica;
+    font-size: 3.5rem;
+    margin-left: 1%;
+    margin-top: 1%;
+    background-color: none;
+    border: none;
+    font-style: italic;
 }
 
-.text-input {
-    width: 100%;
-    max-width: 100%;
+#proj1img {
+    display: flex;
 }
 
-.text-input, select {
-    padding: 1%;
-    outline: none;
-    border: 1.2px solid var(--sitered);
+#proj2img {
+    display: flex;
 }
 
-.text-input:hover{
-    box-shadow: 0 0 5px #999;
+#proj3img {
+    display: flex;
 }
 
-.text-input:focus {
-    border-right-width: 5px;
-}
-
-.text-input:placeholder-shown {
-    border-style: dashed;
-}
-
+    
+/*
 #box1title {
     display: flex;
     justify-content: left;
     margin-left: 5%;
 }
-
+    
 #box1img {
     display: flex;
     justify-content: right;
